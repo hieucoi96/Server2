@@ -1,6 +1,6 @@
 var http = require('http');
 
-http.createServer(function ( reg, res){
+http.createServer(function ( request, response){
     // res.end('Xin chao mn nhe!!');
     var url = request.url;
     if (url == '/') {
