@@ -1,0 +1,22 @@
+{
+  "name": "server2",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieucoi96/Server2.git"
+  },
+  "keywords": [
+    "no"
+  ],
+  "author": "Hoang Minh Hieu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hieucoi96/Server2/issues"
+  },
+  "homepage": "https://github.com/hieucoi96/Server2#readme"
+}
