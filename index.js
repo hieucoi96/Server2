@@ -2,6 +2,7 @@ var http = require('http');
 
 http.createServer(function ( reg, res){
     // res.end('Xin chao mn nhe!!');
+    var url = request.url;
     if (url == '/') {
         response.writeHead('200', {'Content-Type': 'text/html'});
         fs.readFile('index.html', function (error, data) {
