@@ -1,5 +1,6 @@
 .bgimage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://tinder.com/static/build/m/744fe6d80266616aba687006b7d764ad.webp");
+  background-size:cover;
 }
 
 .text-bg {
