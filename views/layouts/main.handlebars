@@ -105,73 +105,85 @@ tinder</a><button data-toggle="collapse" class="navbar-toggler collapsed" data-t
                     </div>
                 </div>
             </div>
-        </footer><div class="modal fade" id="regModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <div class="banner6 py-5">
-  <!-- Row  -->
-  <div class="row">
-    <div class="container">
-      <div class="col-lg-12 align-justify-center pr-0 pl-0 contact-form">
-        <div class="">
-          <h2 class="mb-3 font-weight-light text-center">Register</h2>
-            <div class="login-box-seperator"></div>
-          <h6 class="subtitle font-weight-normal"></h6>
-          <form class="mt-3">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="form-group">
-                  <input class="form-control" type="text" placeholder="Full name">
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="form-group">
-                  <input class="form-control" type="email" placeholder="Email address">
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="form-group">
-                  <input class="form-control" type="password" placeholder="Password">
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="form-group">
-                  <input class="form-control" type="password" placeholder="Confirm password">
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <button type="submit" class="btn btn-md btn-block btn-danger-gradiant text-white border-0"><span> Create Account</span></button>
-                <!--  -->
-              </div>
-            </div>
-          </form>
-          <div class="row">
-            <div class="col-lg-12 text-center mt-4">
-              <h6 class="font-weight-normal">Signup with Social Accounts</h6>
-              <div class="row">
-                <div class="col-lg-12 col-md-6">
-                  <a href="#" class="btn btn-block bg-facebook text-white mt-3">Facebook</a>
-                </div>
-                <div class="col-lg-12 col-md-6">
-                  <a href="#" class="btn btn-block bg-twitter text-white mt-3">Twitter</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-12 text-center mt-4">
-              Already have an account? <a href="#" class="text-danger">Sign In</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        </footer>
+        <div class="modal fade" id="regModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="banner6 py-5">
+                            <!-- Row  -->
+                            <div class="row">
+                                <div class="container">
+                                    <div class="col-lg-12 align-justify-center pr-0 pl-0 contact-form">
+                                        <div class="">
+                                            <h2 class="mb-3 font-weight-light text-center">Register</h2>
+                                            <div class="login-box-seperator"></div>
+                                            <h6 class="subtitle font-weight-normal"></h6>
+                                            <form class="mt-3" action="/insertUser" enctype="multipart/form-data" method="post">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="form-group">
+                                                            <input class="form-control" name="fullname" type="text" placeholder="Full name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="form-group">
+                                                            <input class="form-control" name="username" type="email" placeholder="Email address">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="form-group">
+                                                            <input class="form-control" name="password" type="password" placeholder="Password">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="form-group">
+                                                            <input class="form-control" type="password" placeholder="Confirm password">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="form-group">
+                                                            <input class="form-control" name="phone_number" type="number" placeholder="Phone Number">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="form-group">
+                                                            <span> Avatar: </span><input name="avatar" type="file">
+                                                        </div>
+                                                    </div>
 
-  </div>
-</div>
-      </div>
-    </div>
-  </div>
-</div>
+                                                    <div class="col-lg-12">
+                                                        <button type="submit" class="btn btn-md btn-block btn-danger-gradiant text-white border-0"><span> Create Account</span></button>
+                                                        <!--  -->
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div class="row">
+                                                <div class="col-lg-12 text-center mt-4">
+                                                    <h6 class="font-weight-normal">Signup with Social Accounts</h6>
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-6">
+                                                            <a href="#" class="btn btn-block bg-facebook text-white mt-3">Facebook</a>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-6">
+                                                            <a href="#" class="btn btn-block bg-twitter text-white mt-3">Twitter</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 text-center mt-4">
+                                                    Already have an account? <a href="#" class="text-danger">Sign In</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
